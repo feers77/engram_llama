@@ -154,7 +154,7 @@ llama.cpp/SECURITY.md
 
 ### Files to Exclude from Repository
 The following should **NOT** be included in your repository:
-- Model files (too large, ~20GB for gpt-oss:120)
+- Model files (too large, ~60GB for gpt-oss:120)
 - Build artifacts (`build/` directory)
 - Cache directories (`~/.cache/llama.cpp/`)
 - Generated binaries (`bin/` directory)
@@ -162,10 +162,9 @@ The following should **NOT** be included in your repository:
 ## 📊 Performance & Requirements
 
 ### System Requirements
-- **RAM**: 16GB+ (32GB recommended for optimal performance)
-- **Storage**: 50GB+ of free disk space (for models and cache)
+- **RAM**: 96GB+ (128GB recommended for optimal performance)
+- **Storage**: 100GB+ of free disk space (for models and cache)
 - **CPU**: Modern multi-core processor (Intel/AMD ARM)
-- **GPU**: Optional but recommended for faster inference
 
 ### Performance Tips
 ```bash
