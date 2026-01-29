@@ -104,22 +104,6 @@ llama.cpp/
 # Default gpt-oss:120b model
 ./bin/llama-cli --gpt-oss-120b-default --prompt "Your question here"
 
-# With custom parameters
-./bin/llama-cli --gpt-oss-120b-default \
-  -t 8          # Number of threads
-  -c 2048       # Context size
-  -n 256        # Max tokens to predict
-  --temp 0.7    # Temperature
-  --top-p 0.9   # Top-P sampling
-```
-
-### Engram-Specific Options
-```bash
-# Engram configuration (if custom)
-./bin/llama-cli --gpt-oss-120b-default \
-  --engram-max-ngram-size 3 \
-  --engram-n-embed-per-ngram 128
-```
 
 ## 📦 Files to Upload for Open Source
 
